@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.CLI", "Amazon.CLI.csproj", "{EB6B120F-AEC4-4C18-AE8C-BC86D6FD91E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47364758-1D1B-4D37-B15C-26FA665C29D8} = {47364758-1D1B-4D37-B15C-26FA665C29D8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Library", "..\AWS.Library\AWS.Library.csproj", "{47364758-1D1B-4D37-B15C-26FA665C29D8}"
 EndProject
