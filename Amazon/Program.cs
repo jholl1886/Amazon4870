@@ -1,7 +1,7 @@
 ﻿using AWS.library.Services;
 using AWS.Models;
 namespace Amazon.CLI
-{ // this is gay
+{ 
     internal class Program
     {
         private static  ItemsServiceProxy itemsSvc = ItemsServiceProxy.Current;

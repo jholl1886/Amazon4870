@@ -9,7 +9,7 @@ namespace AWS.library.Models
 {
     internal class ShoppingCart
     {
-        int Id {  get; set; }
+        int Id {  get; set; } //add to
 
         public List<Items>? Contents { get; set; }
     }

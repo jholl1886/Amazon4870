@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AWS.library.Services
-{
+{ //check for mistakes
     public class ItemsServiceProxy
     {
         
